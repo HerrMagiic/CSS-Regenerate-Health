@@ -1,11 +1,4 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
-
-/.vs/HealthRegen/FileContentIndex
+﻿/.vs
 /.vscode
-/bin
-/obj
-/HealthRegen/bin/Debug/net7.0
-/HealthRegen/obj/Debug/net7.0
-/.vs/HealthRegen/v17
+/HealthRegen/bin
+/HealthRegen/obj

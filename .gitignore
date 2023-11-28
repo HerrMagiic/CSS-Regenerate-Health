@@ -6,3 +6,6 @@
 /.vscode
 /bin
 /obj
+/HealthRegen/bin/Debug/net7.0
+/HealthRegen/obj/Debug/net7.0
+/.vs/HealthRegen/v17

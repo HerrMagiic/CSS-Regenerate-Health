@@ -18,10 +18,10 @@ public class HealthRegen : BasePlugin, IPluginConfig<HealthRegenConfig>
     public HealthRegenConfig Config { get; set; } = new();
 
     public void OnConfigParsed(HealthRegenConfig config)
-        {
-            // Save config instance
-            Config = config;
-        }
+    {
+        // Save config instance
+        Config = config;
+    }
 
     public override void Load(bool hotReload)
     {
@@ -30,7 +30,6 @@ public class HealthRegen : BasePlugin, IPluginConfig<HealthRegenConfig>
 			Logger.LogWarning($"{Config.LogPrefix} {ModuleName} is disabled");
 			return;
 		}
-
 		Logger.LogInformation(
                 $"HealthRegen Plugin has been loaded, and the hot reload flag was {hotReload}, path is {ModulePath}");
     }

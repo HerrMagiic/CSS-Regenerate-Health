@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "X:\\repos\\CSS-Regenerate-Health\\HealthRegen\\HealthRegen.csproj": {}
+  },
+  "projects": {
+    "X:\\repos\\CSS-Regenerate-Health\\HealthRegen\\HealthRegen.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "X:\\repos\\CSS-Regenerate-Health\\HealthRegen\\HealthRegen.csproj",
+        "projectName": "HealthRegen",
+        "projectPath": "X:\\repos\\CSS-Regenerate-Health\\HealthRegen\\HealthRegen.csproj",
+        "packagesPath": "C:\\Users\\DTC108423\\.nuget\\packages\\",
+        "outputPath": "X:\\repos\\CSS-Regenerate-Health\\HealthRegen\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DTC108423\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/DeteconLabor/7c43ab64-3106-4c19-87a8-61f875b36ca1/_packaging/SetupSyncfusionLicence/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/DeteconLabor/7c43ab64-3106-4c19-87a8-61f875b36ca1/_packaging/SyncFusionLicence/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "CounterStrikeSharp.API": {
+              "target": "Package",
+              "version": "[1.0.78, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

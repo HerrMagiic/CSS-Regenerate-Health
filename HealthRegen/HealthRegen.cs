@@ -5,16 +5,18 @@ using Microsoft.Extensions.Logging;
 using System.Text.Json;
 using System.
 using CounterStrikeSharp.API.Modules.Entities;
+using CounterStrikeSharp.API.Core.Attributes;
 
 namespace HealthRegen;
 
+[MinimumApiVersion(78)]
 public class HealthRegen : BasePlugin, IPluginConfig<HealthRegenConfig>
 {
     public override string ModuleName => "HealthRegen";
 
     public override string ModuleDescription => "Regenerates health with a command";
 
-    public override string ModuleVersion => "1.0.0";
+    public override string ModuleVersion => "1.0.1";
 
     public override string ModuleAuthor => "HerrMagic";
 

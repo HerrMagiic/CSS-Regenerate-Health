@@ -12,6 +12,15 @@ public class HealthRegenConfig : BasePluginConfig
     [JsonPropertyName("LogPrefix")] 
     public string LogPrefix { get; set; } = "CSSharp";
 
-    [JsonPropertyName("HealthToRegen")] 
+	[JsonPropertyName("SetDefaultHealth")]
+	public int SetDefaultHealth { get; set; } = 100;
+
+	[JsonPropertyName("HealthToRegen")] 
     public int HealthToRegen { get; set; } = 100;
+
+	//[JsonPropertyName("SlowlyRegenerateHealth")]
+	//public bool SlowlyRegenerateHealth { get; set; } = true;
+
+ //   [JsonPropertyName("HealthRegenerateTime")]
+	//public int HealthRegenerateTime { get; set; } = 5;
 }
